@@ -1,0 +1,110 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+ 
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#666"
+        android:dividerHeight="1dp"
+        android:background="#333"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        />
+
+ 
+ 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myfirstapp.MainActivity" >
+
+     <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="false"
+     />
+     
+     <EditText
+        android:id="@+id/edit_address1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_address1">      
+    </EditText>
+    
+      <EditText
+        android:id="@+id/edit_address2"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_address2">      
+    </EditText>
+    
+    <EditText
+        android:id="@+id/edit_City"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_City">      
+    </EditText>
+    
+      <EditText
+        android:id="@+id/edit_State"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_State">      
+    </EditText>
+    
+        <EditText
+        android:id="@+id/edit_Country"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_Country">      
+    </EditText>
+    
+      <EditText
+        android:id="@+id/edit_ZipCode"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/edit_ZipCode">      
+    </EditText>
+    
+    <Button
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_send"
+		android:onClick="sendMessage"
+		>
+	
+    </Button>
+    
+   <Spinner
+        android:id="@+id/spinner2"
+        android:spinnerMode="dialog" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 
+  
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_add"
+		>
+	
+    </Button>
+
+</LinearLayout>
+
+ </android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_address1">Enter Address</string>
+    <string name="edit_address2">Enter Address 2</string>
+    <string name="edit_State">Enter State</string>
+    <string name="edit_City">Enter CityName</string>
+    <string name="edit_Country">Enter Country(FullName)</string>
+    <string name="edit_ZipCode">Enter Zipcode</string>
+    <string name="button_send">Send</string>
+     <string name="button_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_display_message">MyMessage</string>
+    <string-array name="navigation_drawer_items_array">
+    <item>Find</item>
+    <item>Read</item>
+    <item>Help</item>
+</string-array>
+</resources>
